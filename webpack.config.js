@@ -6,7 +6,8 @@ module.exports = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname, 'build'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath: "/assets/"
     },
     module: {
         rules: [
@@ -29,5 +30,11 @@ module.exports = {
             inject: 'body',
             hash: true
         }),
-    ]
+    ],
+    externals: {
+        "angular": "angular"
+    },
+    devServer: {
+        port: 5555
+    }
 };

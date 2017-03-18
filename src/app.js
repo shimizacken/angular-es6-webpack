@@ -1,4 +1,4 @@
 import angular from 'angular';
 import Components from './components/components'
-
-let app = angular.module('app', [Components]);
+debugger;
+let app = angular.module('mainApp', []);

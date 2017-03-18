@@ -1,9 +1,11 @@
 import HeaderController from './header-controller';
 import template from './header.html';
 
-export default HeaderComponent = {
-    restrict: 'E',
+let HeaderComponent = {
+restrict: 'E',
     bindings: {},
     template: template,
-    controler: HeaderController
-}
+    HeaderController
+};
+
+export default HeaderComponent;
