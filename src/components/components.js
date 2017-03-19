@@ -1,6 +1,9 @@
 import angular from 'angular';
 
-import Header from './header/header-component';
+import HeaderComponent from './header/header-component';
 
-export default angular.module('Components', [])
-    .component('Header', Header);
+let ComponentsModule = angular.module('Components', []);
+    //.component('Header', HeaderComponent);
+
+
+export default ComponentsModule;
