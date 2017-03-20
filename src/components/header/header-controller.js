@@ -2,7 +2,7 @@
 export default class HeaderController {
     $onInit() {
         
-        this.headerTitle = 'shimiz';
+        this.headerTitle = 'Welcome to the portal!';
      }
 
     $onDestroy() { }
