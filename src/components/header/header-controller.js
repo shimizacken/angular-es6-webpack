@@ -1,8 +1,9 @@
 
 export default class HeaderController {
-
-    
-    $onInit() { }
+    $onInit() {
+        
+        this.headerTitle = 'shimiz';
+     }
 
     $onDestroy() { }
 }
